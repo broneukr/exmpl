@@ -2,5 +2,6 @@
 
 export default (req, res) => {
   res.statusCode = 200
+  console.log(new Date())
   res.json({ name: 'brone ukr', user: 'brone ukr' })
 }
