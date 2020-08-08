@@ -8,6 +8,7 @@ export default (req, res) => {
   console.warn(d)
   console.info({ name: 'brone ukr', date: d })
   console.info([77,888])
-  res.json({ name: 'brone ukr', date: d })
+  
   Sentry.captureException(new Error("Something broke"))
+  res.json({ name: 'brone ukr', date: d })
 }
