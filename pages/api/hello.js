@@ -1,4 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+Sentry.init({ dsn: 'https://1aa9f096f9dd49ee95def5e142b0a4db@o431614.ingest.sentry.io/5383204' })
 
 export default (req, res) => {
   var d = new Date()
